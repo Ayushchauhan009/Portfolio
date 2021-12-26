@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex; 
+}
+.sidebar{
+    background-color: lightgray;
+    width: 270px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav{
+    padding: 60px;
+}
+.sidebar nav li{
+   list-style: none;
+   font-size: 20px;
+   padding: 30px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    
+}
+
+.infoContainer{
+    /* background-color: pink; */
+    margin: 147px auto;
+    height: 46vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 35px;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.desc{
+    font-size: 25px;
+}
+
+.descmore{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px ;
+}
+
+.buttons{
+    margin-top: 27px;
+}
+
+.buttons button{
+    font-size: 13px;
+    padding: 9px 14px;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 20px;
+    color: rgb(17, 2, 2);
+    background-color: rgb(67, 156, 245);
+    font-weight: bold;
+    margin: 0 3px;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.4s ease-in-out;
+}
+
+.devPic img{
+    width: 230px;
+    height: 46vh;
+}
